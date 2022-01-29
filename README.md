@@ -1,3 +1,3 @@
 # MSParticles
 
-A description of this package.
+Particle effects for SwiftUI.
