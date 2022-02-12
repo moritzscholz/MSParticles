@@ -35,7 +35,7 @@ where Particle: View {
 
     public var body: some View {
         ZStack {
-            ForEach(0...numberOfParticles, id: \.self) { index in
+            ForEach(1...numberOfParticles, id: \.self) { index in
                 particle()
                     .hueRotation(colorful ? hueRotationAngle(forParticleAt: index)
                                  : .zero)
